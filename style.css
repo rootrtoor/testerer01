@@ -1,0 +1,166 @@
+
+body {
+  font-family: "Courier New", monospace;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 20px;
+}
+
+.main-layout {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #000000;
+}
+
+.header {
+  background-color: #000000;
+  color: #FF0000;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+marquee {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.nav-menu {
+  width: 150px;
+  background-color: #666666;
+  vertical-align: top;
+}
+
+.nav-button {
+  display: block;
+  background-color: #000000;
+  color: #FF0000;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 2px outset #666666;
+}
+
+.nav-button:hover {
+  background-color: #FF0000;
+  color: #000000;
+  border-style: inset;
+}
+
+.visitor-counter {
+  background-color: #000000;
+  color: #00FF00;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 5px;
+  font-family: "Courier New", monospace;
+  border: 1px solid #00FF00;
+}
+
+.content {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+
+h2 {
+  color: #FF0000;
+  border-bottom: 2px solid #000000;
+}
+
+.news-item {
+  border: 1px solid #666666;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.merch-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.merch-table td {
+  border: 1px solid #666666;
+  padding: 10px;
+}
+
+#subscribe-form {
+  margin: 20px 0;
+}
+
+#subscribe-form input {
+  padding: 5px;
+  width: 200px;
+  font-family: "Courier New", monospace;
+}
+
+#subscribe-form button {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border: 2px outset #666666;
+  padding: 5px 10px;
+  font-family: "Courier New", monospace;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
+a {
+  color: #0000FF;
+}
+
+a:visited {
+  color: #800080;
+}
+
+.tour-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tour-table td {
+  border: 1px solid #666666;
+  padding: 10px;
+}
+
+.member-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.member-list li {
+  padding: 5px 0;
+  border-bottom: 1px dotted #666666;
+}
+
+.album-cover {
+  border: 2px solid #000000;
+  margin: 10px 0;
+}
+
+.tour-dates, .band-bio {
+  margin: 20px 0;
+}
+
+.news-archive .news-item {
+  margin-bottom: 20px;
+}
+
+.order-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px dashed #FF0000;
+}
